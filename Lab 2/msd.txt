@@ -1,0 +1,53 @@
+int pinOne = 12;
+int pinTwo = 10;
+int pinThree = 8;
+void setup() {
+  // put your setup code here, to run once:
+pinMode(pinOne, OUTPUT);
+pinMode(pinTwo, OUTPUT);
+pinMode(pinThree, OUTPUT);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+digitalWrite(pinOne, LOW);   // turn the LED on (HIGH is the voltage level)
+digitalWrite(pinTwo, LOW); 
+digitalWrite(pinThree, LOW);   
+delay(1000);   
+
+
+digitalWrite(pinOne, LOW);   // turn the LED on (HIGH is the voltage level)
+digitalWrite(pinTwo, LOW); 
+digitalWrite(pinThree, HIGH);   
+delay(1000);   
+
+digitalWrite(pinOne, LOW);   // turn the LED on (HIGH is the voltage level)
+digitalWrite(pinTwo, HIGH); 
+digitalWrite(pinThree, LOW);   
+delay(1000);   
+
+  digitalWrite(pinOne, LOW);   // turn the LED on (HIGH is the voltage level)
+digitalWrite(pinTwo, HIGH); 
+digitalWrite(pinThree, HIGH);   
+  delay(1000);   
+
+  digitalWrite(pinOne, HIGH);   // turn the LED on (HIGH is the voltage level)
+digitalWrite(pinTwo, LOW); 
+digitalWrite(pinThree, LOW);   
+  delay(1000);   
+
+  digitalWrite(pinOne, HIGH);   // turn the LED on (HIGH is the voltage level)
+digitalWrite(pinTwo, LOW); 
+digitalWrite(pinThree, HIGH);   
+  delay(1000);   
+
+  digitalWrite(pinOne, HIGH);   // turn the LED on (HIGH is the voltage level)
+digitalWrite(pinTwo, HIGH); 
+digitalWrite(pinThree, LOW);   
+  delay(1000);   
+
+  digitalWrite(pinOne, HIGH);   // turn the LED on (HIGH is the voltage level)
+digitalWrite(pinTwo, HIGH); 
+digitalWrite(pinThree, HIGH);   
+  delay(1000);   
+}
